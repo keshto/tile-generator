@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <title>TileThingy</title>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+   <form id="tileForm">
+    Name:<br>
+    <input type="text" name="name"><br>
+    Label:<br>
+    <input type="text" name="label"><br>
+    Description:<br>
+    <textarea name="description" rows="3" cols="33"></textarea><br>
+    Icon:<br>
+    <input type="file" name="icon"><br>
+    Properties: <button type="button" onclick="addProp()">Add a property</button><br>
+    <div id="propContainer"></div><br>
+    Forms: <button type="button" onclick="addForm()">Add a form</button><br>
+    <div id="formContainer"></div><br>
+    Packages: <select id="pkgSelector" onchange="addPkg()">
+      <option value="default">Add a package</option>
+      <option value="app">Application</option>
+      <option value="app-broker">App Broker</option>
+      <option value="buildpack">Buildpack</option>
+      <option value="bosh-release">Bosh Release</option>
+      <option value="blob">Blob</option>
+      <option value="decorator">Decorator</option>
+      <option value="docker-app">Docker App</option>
+      <option value="docker-app-broker">Docker App Broker</option>
+      <option value="docker-bosh">Docker Bosh</option>
+      <option value="external-broker">External Broker</option>
+      <option value="helm">Helm</option>
+      <option value="kibosh">Kibosh</option>
+    </select><br>
+    <div id="pkgContainer"></div><br>
+    <input type="submit" value="Submit">
+  </form>
+  <div id="output"></div>
+  <script src="jquery.collapse.js"></script>
+  <script src="main.js"></script>
+</body>

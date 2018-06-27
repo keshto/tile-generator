@@ -1,0 +1,22 @@
+.prop {
+  border: solid;
+}
+
+#propContainer, #formContainer {
+  height: 210px;
+  overflow-x: auto;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.open i {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
