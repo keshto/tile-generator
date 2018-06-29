@@ -59,7 +59,7 @@ input[type=textarea] {
   box-sizing: border-box;
 }
 
-#propContainer, #formContainer, #pkgContainer, #output {
+#propContainer, #formContainer, #pkgContainer {
   height: 210px;
   overflow-x: auto;
   width: 100%;
