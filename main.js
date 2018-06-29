@@ -54,7 +54,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           cpu: <input type="text" name="cpu"><br>
           memory: <input type="text" name="memory"><br>
@@ -76,7 +76,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           consumes:<br>
           <textarea name="consumes" rows="3" cols="33"></textarea><br>
@@ -93,7 +93,7 @@ function addPkg(){
         type: ` + pkgType + `<br>
         path: <input type="text" name="path"><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           buildpack_order: <input type="text" name="buildpack_order"><br>
         </div>
@@ -117,7 +117,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           consumes:<br>
           <textarea name="consumes" rows="3" cols="33"></textarea><br>
@@ -154,7 +154,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           auto_services:<br>
           <textarea name="auto_services" rows="3" cols="33"></textarea><br>
@@ -170,7 +170,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           cpu: <input type="text" name="cpu"><br>
           memory: <input type="text" name="memory"><br>
@@ -188,7 +188,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           consumes:<br>
           <textarea name="consumes" rows="3" cols="33"></textarea><br>
@@ -207,7 +207,7 @@ function addPkg(){
         manifest:<br>
         <textarea name="manifest" rows="3" cols="33"></textarea><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           consumes:<br>
           <textarea name="consumes" rows="3" cols="33"></textarea><br>
@@ -225,7 +225,7 @@ function addPkg(){
         type: ` + pkgType + `<br>
         helm_chart_dir: <input type="text" name="helm_chart_dir"><br>
         <div class="collapsable">
-        <h2>Optional<i class="arrow"></i></h2>
+        <h3>Optional<i class="arrow"></i></h3>
         <div>
           enable_global_access_to_plans: <input type="checkbox" name="enable_global_access_to_plans" checked><br>
         </div>
