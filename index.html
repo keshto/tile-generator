@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>TileThingy</title>
@@ -10,15 +12,20 @@
 </head>
 
 <body>
+<header id="header">
+    <h2>Pivotal Tile Generator JSON</h2>
+</header>
    <form id="tileForm">
-    Name:<br>
-    <input type="text" name="name"><br>
-    Label:<br>
-    <input type="text" name="label"><br>
+     <div id="topfields">
+    Name:
+    <input type="text" name="name" placeholder="tile-name"><br>
+    Label:
+    <input type="text" name="label" placeholder="Tile label"><br>
     Description:<br>
-    <textarea name="description" rows="3" cols="33"></textarea><br>
+    <textarea name="description" rows="4" cols="99" placeholder="Short description of your tile"></textarea><br>
     Icon:<br>
     <input type="file" name="icon"><br>
+      </div>
     Properties: <button type="button" onclick="addProp()">Add a property</button><br>
     <div id="propContainer"></div><br>
     Forms: <button type="button" onclick="addForm()">Add a form</button><br>
@@ -45,3 +52,4 @@
   <script src="jquery.collapse.js"></script>
   <script src="main.js"></script>
 </body>
+</html>
